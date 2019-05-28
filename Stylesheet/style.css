@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    padding:10px;
+    text-align:center; 
+}
+section{
+    Width: 35%;
+    float:left;
+    height:740px;
+    background:dodgerblue;
+}
+aside{
+    width: 65%;
+    height: 740%;
+    background: #fff;
+    float:right;
+    margin-top: 200px !important;
+    text-align: center;
+}
+.register-form{
+    padding: 7px;
+}
+
