@@ -1,26 +1,96 @@
 *{
-    box-sizing:border-box;
+    /* box-sizing:border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 400 !important;
 }
 body{
     margin:0px;
-    padding:10px;
-    text-align:center; 
+    /* padding:10px;  WHY PAD THE BODY? I DON'T THINK ITS EVER NECESSARY*/
+    /* text-align:center;  *
+    i do not see a need to center align the body, since it does not work for the whole page
+    */
 }
 section{
     Width: 35%;
     float:left;
-    height:740px;
-    background:dodgerblue;
+    /* height:740px; */
+    /*FOR HEIGHT USE THIS INSTEAD*/
+    height: 100vh;
+
+    background:rgb(7, 71, 134);
 }
 aside{
     width: 65%;
-    height: 740%;
+    /* height: 740%; */
     background: #fff;
     float:right;
-    margin-top: 200px !important;
-    text-align: center;
-}
-.register-form{
-    padding: 7px;
+    /* margin-top: 200px !important; ENDEAVOR TO USE PADDING TOP INSTEAD */
+    padding-top: 15%;
+    /* text-align: center;
+        CONSIDERING THAT THE DEMO ISN'T CENTER ALLIGNED AM REMOVING THIS TOO
+    */
 }
 
+/* removing this due to collision with the new css below */
+/* 
+.register-form{
+    padding: 7px;
+} */
+
+/*this ccss is written by OTAnation*/
+
+.form {
+    width: 40%;
+    margin: auto;
+}
+
+
+
+.form .register-form input.inline {
+    display: inline !important;
+    width: auto;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.register-form span {
+    padding-left: 32px;
+}
+
+.form .register-form input {
+    display: block;
+    width: calc(100% - 40px);
+    padding: 16px 8px;
+    margin: 24px 0px;
+    border-radius: 50px;
+    border: 1px solid rgb(7, 71, 134);
+    outline: none;
+    padding-left: 32px;
+}
+
+.form .register-form button {
+    display: inline;
+    padding: 16px 8px;
+    margin: 24px 0px;
+    border-radius: 50px;
+    border: 1px solid rgb(7, 71, 134);
+    outline: none;
+    padding-left: 32px;   
+}
+
+.form .register-form button.main {
+    width: 50% !important;
+    text-align: left;
+    background: rgb(7, 71, 134);
+    color: white;
+}
+
+.form .register-form button.second {
+    width: 40% !important;
+    float: right;
+    text-align: left;
+    background: transparent;
+    color: rgb(7, 71, 134);
+}
