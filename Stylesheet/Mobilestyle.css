@@ -1,5 +1,6 @@
 body{
     padding:0px;
+    font-family: poppins;
 }
 
 section{
@@ -7,13 +8,13 @@ section{
 }
 
 .form {
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 
-form .register-form input.inline {
-    display: inline !important;
-    width: auto;
+form .register-form input[type=checkbox].inline {
+    /* display: inline !important; */
+    width: 10px;
     margin: 0px !important;
     padding: 0px !important;
 }
@@ -25,10 +26,10 @@ form .register-form input.inline {
 }
 
 .form .register-form input {
-    display: block;
-    width: 100%;
+    /* display: block; */
+    width: calc(100% - 16px);
     padding: 8px 4px;
-    margin: 4px 0px;
+    margin: 8px 0px;
     border-radius: 15px;
     border: 1px solid rgb(7, 71, 134);
     outline: none;
@@ -36,7 +37,7 @@ form .register-form input.inline {
 }
 
 .form .register-form button {
-    display: inline;
+    /* display: inline; */
     padding: 8px 4px;
     margin: 8px 0px;
     border-radius: 15px;
