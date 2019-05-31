@@ -1,14 +1,11 @@
 body{
-    padding:0px;
+
     font-family: poppins;
 }
 
-section{
-    Padding-top:50%;
-}
 
 .form {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -61,10 +58,32 @@ form .register-form input[type=checkbox].inline {
     color: rgb(7, 71, 134);
 }
 
-/*.triangle-up {
-	width: 0;
-	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-bottom: 50px solid #555;
-}*/
+.triangle-topleft { 
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid rgb(7, 71, 134); 
+    border-right: 100px solid transparent; 
+    position: absolute;
+    left:0px; 
+    top:0px
+}
+
+.triangle-bottomright { 
+    width: 0; 
+    height: 0; 
+    border-bottom: 100px solid rgb(7, 71, 134); 
+    border-left: 100px solid transparent; 
+    position: absolute;
+    right:0px;
+    bottom:0px;
+} 
+
+.icon{
+    padding-top: 16px !important;
+}
+
+#control-main-div{
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 20%;
+}
